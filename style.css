@@ -20,8 +20,7 @@ h1 {
 }
 
 /***** Set the game area *****/
-/* add background color, so it's more visible */
-/* don't  */
+/* add background color, so it's more visible for dev, not that responsive, because we don't need that*/
 .game-area {
   margin: 0 auto;
   width: 80%;
@@ -31,7 +30,7 @@ h1 {
   justify-content: center;
   align-content: center;
 }
-
+/* set target area, so it looks nice without the js  */
 .target-area {
   max-width: 660px;
   min-width: 640px;
@@ -48,11 +47,15 @@ h1 {
   max-width: 200px;
   max-height: 225px;
   border: 2px blue dashed;
+  /* add this later when transform is ready in js */
   transition: transform 0.2s ease;
 }
 
 .draggable {
+  /* Indicate the element draggable */
   cursor: move;
+  /* It will be positioned absolutely */
   position: absolute;
+  /* Doesn't allow to select the content inside */
   user-select: none;
 }
