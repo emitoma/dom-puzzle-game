@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Picture puzzle</title>
+</head>
+
+<body>
+    <h1>Picture puzzle</h1>
+    <!-- https://www.imgonline.com.ua/eng/cut-photo-into-pieces-result.php -->
+
+    <section class="game-area">
+        <div class="target-area">
+            <!-- draggable atttribute: true/false, megmondja, hogy az az element 
+                draggelhető-e, nekünk most ez nem kell, mert hülyén néz majd ki, 
+                meg furán is műkődik miatta a kód -->
+            <img src="./assets/01.jpg" alt="01" draggable="false" id="img1" class="img-piece draggable">
+            <img src="./assets/02.jpg" alt="02" draggable="false" id="img2" class="img-piece draggable">
+            <img src="./assets/03.jpg" alt="02" draggable="false" id="img3" class="img-piece draggable">
+            <img src="./assets/04.jpg" alt="04" draggable="false" id="img4" class="img-piece draggable">
+            <img src="./assets/05.jpg" alt="05" draggable="false" id="img5" class="img-piece draggable">
+            <img src="./assets/06.jpg" alt="06" draggable="false" id="img6" class="img-piece draggable">
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

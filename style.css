@@ -1,0 +1,58 @@
+/* ***BASIC SETTINGS*** */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body,
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Hachi Maru Pop', cursive;
+  font-size: 16px;
+  background-color: rgb(253, 245, 235);
+}
+h1 {
+  text-align: center;
+}
+
+/***** Set the game area *****/
+/* add background color, so it's more visible */
+/* don't  */
+.game-area {
+  margin: 0 auto;
+  width: 80%;
+  min-width: 650px;
+  padding: 15%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.target-area {
+  max-width: 660px;
+  min-width: 640px;
+  min-height: 480px;
+  padding: 5px;
+  border: black solid 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.img-piece {
+  max-width: 200px;
+  max-height: 225px;
+  border: 2px blue dashed;
+  transition: transform 0.2s ease;
+}
+
+.draggable {
+  cursor: move;
+  position: absolute;
+  user-select: none;
+}
