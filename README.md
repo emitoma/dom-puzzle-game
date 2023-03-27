@@ -1,1 +1,1 @@
-A simple puzzle game for demoing DOM manipulation with JavaSript
+A simple puzzle game for demoing DOM manipulation with JavaScript
